@@ -12,9 +12,9 @@ Session = sessionmaker(bind=engine)
 session = Session()
 
 # Sample data
-sample_customer = Customer(name="Alice")
-sample_restaurant = Restaurant(name="Burger King")
-sample_review = Review(rating=5, comments="Great food!")
+sample_customer = Customer(name="wayne")
+sample_restaurant = Restaurant(name="KFC")
+sample_review = Review(rating=5, comments="finger licking good!")
 
 # Add sample data to the session and commit to the database
 session.add_all([sample_customer, sample_restaurant, sample_review])
