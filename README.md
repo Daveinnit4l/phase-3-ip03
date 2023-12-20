@@ -108,4 +108,4 @@ In terminal run the command: "pipenv install"
 Follow the commands given to install the necessary pip files.
 
 License
-MIT License Copyright (c) 2023 Kelvin Naikuni
+MIT License Copyright (c) 2023 Kyle dave
